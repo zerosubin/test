@@ -12,3 +12,6 @@ function solution(n, m) {
   let min = (n * m) / max
   return [max, min]
 }
+
+console.log(solution(3, 12))
+console.log(solution(2, 5))
