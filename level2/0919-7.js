@@ -14,8 +14,8 @@
 
 function solution(A,B){
   var answer = 0
-  A.sort(function(a,b) { return a - b })
-  B.sort(function(a,b) { return b - a })
+  A.sort(function(a,b) { return b - a })
+  B.sort(function(a,b) { return a - b })
   for(let i=0; i<A.length; i++) {
       answer += A[i] * B[i]
   }
