@@ -5,7 +5,7 @@
 
 function solution(brown, yellow) {
   var answer = []
-// 직사격형 최소 길이는 3
+  // 직사격형 최소 길이는 3이다 
   for (var y = 3; y <= (brown+yellow)/y; y++) {
       var x = Math.floor((brown+yellow)/y)
       if((x-2)*(y-2) === yellow) {
